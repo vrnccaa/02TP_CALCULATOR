@@ -21,7 +21,7 @@ class Token(object):
             Token(INTEGER, 3)
             Token(PLUS'+')
             """
-            return 'Token([type], [value])'.format(
+            return 'Token({type}, {value})'.format(
                 type = self.type,
                 value = repr(self.value)
             )
@@ -141,7 +141,7 @@ def main():
         result = interpreter.expr()
         print(result)
 
-if __name__=='__main__':
+if __name__== '__main__':
     main()
 
 
