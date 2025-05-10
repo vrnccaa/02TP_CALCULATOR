@@ -1,4 +1,3 @@
-
 # program : compound_statement DOT
 # compound_statement : BEGIN statement_list END
 # statement_list : statement
